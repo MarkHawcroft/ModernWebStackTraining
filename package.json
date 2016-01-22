@@ -1,0 +1,41 @@
+{
+  "jspm": {
+    "directories": {
+      "baseURL": "src"
+    },
+    "configFile": "src/system.config.js",
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.8",
+      "angular-ui-router": "github:angular-ui/ui-router@^0.2.15"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "name": "modernwebstacktraining",
+  "description": "A 1 hour introduction to JSPM, SystemJS and Angular 1.4.x.",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7",
+    "jspm": "^0.16.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkHawcroft/ModernWebStackTraining.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkHawcroft/ModernWebStackTraining/issues"
+  },
+  "homepage": "https://github.com/MarkHawcroft/ModernWebStackTraining#readme"
+}
